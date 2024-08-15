@@ -17,9 +17,18 @@
       "url": "/contact"
     },
     {
-      "name": "FAQ",
-      "url": "/faq"
+      "name": "Salt",
+      "url": "/salt"
+    },
+    {
+      "name": "Henna",
+      "url": "/Henna"
+    },
+    {
+      "name": "Animal Forage",
+      "url": "/AnimalForage"
     }
+   
   ],
   "footer": [
     {
