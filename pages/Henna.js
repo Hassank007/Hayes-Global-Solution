@@ -1,5 +1,5 @@
-import Header from '@layouts/partials/Header'
-import React from 'react'
+import Header from "@layouts/partials/Header";
+import React from "react";
 import Base from "@layouts/Baseof";
 import Cta from "@layouts/components/Cta";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
 // Import the services data from the separate file
-import services from './Data/HennaData';
+import services from "../lib/Data/HennaData";
 
 const Henna = () => {
   return (
@@ -54,8 +54,8 @@ const Henna = () => {
                   }`}
                 >
                   <h2 className="font-bold leading-[40px]">{service?.title}</h2>
-                  <p className="mt-4 mb-2">{service?.content}</p>
-                  
+                  <p className="mb-2 mt-4">{service?.content}</p>
+
                   {/* Go to Product Button */}
                   <Link
                     href={service?.button.link}
